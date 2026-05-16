@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-int N, i, pos, neg, nul;
+int N, i, pos=0, neg=0, nul=0;
   printf("Ingrese el tamaño del arreglo unidimensional:\n");
 scanf("%d", &N);
   int mat[N];
@@ -14,18 +14,19 @@ scanf("%d", &N);
     {
     if (mat[i] > 0) 
   {
-  pos++;
+  pos=pos+1;
   } 
   else 
     {
   if (mat[i] < 0) 
   {
-  neg++;
+  neg=neg+1;
   }
   else 
   {
-  nul++;
+  nul=nul+1;
   }
+    } 
     } 
   printf("El arreglo tiene %d positivos, %d negativos y %d nulos (iguales a cero).", pos, neg, nul);
 } 
