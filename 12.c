@@ -8,12 +8,12 @@ if(N>=1)
 {
 for(i=2;i<=N;i++)
   {
-p=p*i
+p=p*i;
   } 
 }
   else
 {
-p=0
+p=0;
 }
   printf("El producto de los primeros %d naturales es %d.",N,p);
 } 
