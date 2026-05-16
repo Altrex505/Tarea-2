@@ -7,11 +7,10 @@ scanf("%d %d", &a &b);
 c = a / b;
 if (c%2);
 {
-printf("");
+printf("%d es divisor de %d", b a);
 }
 else
 {
-printf("");
+printf("%d no es divisor de %d", b a);
 }
-  
 } 
