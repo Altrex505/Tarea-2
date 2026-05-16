@@ -1,9 +1,10 @@
 #include <stdio.h>
 int main()
 {
-int mat[N], N, i, s=0;
+int N, i, s=0;
   printf("Ingrese el tamaño del arreglo unidimensional:\n");
 scanf("%d", &N);
+  int mat[N];
   for (i=0;i<N;i++)
     {
     printf("Ingrese el valor entero %d del arreglo:", i+1);
