@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main()
 {
-float d, p = 0;
+float d, p;
 printf("Ingresa una cantidad en dolares:\n");
-scanf("%f, &d");
+scanf("%f", &d);
 p = d * 11.96;
-printf("son %f pesos, &p");
-} 
+printf("son %f pesos", p);
+}
