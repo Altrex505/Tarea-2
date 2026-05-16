@@ -16,7 +16,7 @@ scanf("%d", &N);
     {
     if (mat[i]==N) 
     {
-    s=s+1
+    s=s+1;
     } 
     } 
   printf("El número dado se repite %d veces en el arreglo.", s);
