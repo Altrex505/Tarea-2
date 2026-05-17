@@ -14,7 +14,7 @@ scanf("%d", &N);
     scanf("%d", &n);
   for (i=0;i<N;i++) 
     {
-    if (mat[i]==N) 
+    if (mat[i]==n) 
     {
     s=s+1;
     } 
